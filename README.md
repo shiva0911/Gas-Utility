@@ -146,6 +146,9 @@ Response (JSON):
     
   }
 ]
+# Database Table
+![image](https://github.com/shiva0911/Gas-Utility/assets/78194961/3b5f7135-6b24-4bbe-a4cd-d429011cc9c4)
+
 
 
 
