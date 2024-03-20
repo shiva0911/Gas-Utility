@@ -123,7 +123,7 @@ Response (JSON):
     "details": "Report of gas leak in the kitchen",
     
     "submittedAt": "2024-03-25T10:00:00",
-    
+    "resolvedAt": "null",
     
     "status": "Pending"
   },
@@ -136,9 +136,10 @@ Response (JSON):
     "details": "Request for installation of gas meter",
     
     "submittedAt": "2024-03-25T11:00:00",
+    "resolvedAt": "2024-03-21T00:13:34.064504",
   
     
-    "status": "In Progress"
+    "status": "Complete"
     
   }
 ]
