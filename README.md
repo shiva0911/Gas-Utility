@@ -65,6 +65,7 @@ Response (JSON):
 
 
 {
+
   "id": 1,
   
   "type": "Gas Leak",
@@ -114,7 +115,7 @@ Response (JSON):
 [
 
   {
-  
+
     "id": 1,
     
     "type": "Gas Leak",
@@ -127,6 +128,7 @@ Response (JSON):
     "status": "Pending"
   },
   {
+  
     "id": 2,
     
     "type": "Meter Installation",
