@@ -123,7 +123,7 @@ Response (JSON):
     
     "details": "Report of gas leak in the kitchen",
     
-    "submittedAt": "2024-03-25T10:00:00",
+    "submittedAt": "2024-03-21T00:52:26.3857312",
     
     "resolvedAt": "null",
     
@@ -137,9 +137,9 @@ Response (JSON):
     
     "details": "Request for installation of gas meter",
     
-    "submittedAt": "2024-03-25T11:00:00",
+    "submittedAt": "2024-03-21T00:53:11.539178",
     
-    "resolvedAt": "2024-03-21T00:13:34.064504",
+    "resolvedAt": "2024-03-21T00:53:29.2443051",
   
     
     "status": "Complete"
@@ -147,5 +147,5 @@ Response (JSON):
   }
 ]
 
-![image](https://github.com/shiva0911/Gas-Utility/assets/78194961/941f0b21-060a-48cf-be80-5118302e03d3)
+
 
