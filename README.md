@@ -23,11 +23,9 @@ Endpoint:
 Method: POST
 URL: http://localhost:8089/api/customers/register
 Request Body (JSON):
-json
-
-Copy code
 
 {
+
   "name": "prakash jivtode",
   
   "email": "shivajivtode1@example.com"
@@ -35,8 +33,6 @@ Copy code
 }
 
 # Response (JSON):
-json
-Copy code
 
 {
 
@@ -50,7 +46,6 @@ Copy code
 
 # 2. Submit Service Request:
 
-Endpoint:
 
 Method: POST
 
@@ -58,9 +53,6 @@ URL: http://localhost:8089/api/service-requests
 
 Request Body (JSON):
 
-json
-
-Copy code
 {
   "type": "Gas Leak",
   
@@ -70,9 +62,7 @@ Copy code
 
 Response (JSON):
 
-json
 
-Copy code
 {
   "id": 1,
   
@@ -82,7 +72,6 @@ Copy code
   
   "submittedAt": "2024-03-25T10:00:00",
   
-  "resolvedAt": null,
   
   "status": "Pending"
   
@@ -94,14 +83,14 @@ Copy code
 Method: PUT
 URL: http://localhost:8089/api/service-requests/{id}/progress
 
-Replace {id} with the ID of the service request.
+
 
 # Mark as Complete:
 Method: PUT
 
 URL: http://localhost:8089/api/service-requests/{id}/complete
 
-Replace {id} with the ID of the service request.
+
 
 # Mark as Pending:
 
@@ -109,7 +98,7 @@ Method: PUT
 
 URL: http://localhost:8089/api/service-requests/{id}/pending
 
-Replace {id} with the ID of the service request.
+
 
 # 4. Get List of Queries According to Status:
 Endpoint:
@@ -117,11 +106,9 @@ Endpoint:
 Method: GET
 URL: http://localhost:8089/api/service-requests?status={status}
 
-Replace {status} with the desired status (e.g., pending, in-progress, complete).
+
 
 Response (JSON):
-json
-Copy code
 
 [
 
@@ -135,7 +122,6 @@ Copy code
     
     "submittedAt": "2024-03-25T10:00:00",
     
-    "resolvedAt": null,
     
     "status": "Pending"
   },
@@ -147,8 +133,7 @@ Copy code
     "details": "Request for installation of gas meter",
     
     "submittedAt": "2024-03-25T11:00:00",
-    
-    "resolvedAt": null,
+  
     
     "status": "In Progress"
     
