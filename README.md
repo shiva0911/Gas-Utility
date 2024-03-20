@@ -54,6 +54,7 @@ URL: http://localhost:8089/api/service-requests
 Request Body (JSON):
 
 {
+
   "type": "Gas Leak",
   
   "details": "Report of gas leak in the kitchen"
